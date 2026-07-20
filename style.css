@@ -2,6 +2,16 @@
     --color1: rgb(37, 99, 235);
     --color2: white;
     --color3: black;
+    --color4: #212529;
+    --color5: #343a40;
+    --color6: #495057;
+    --color7: #6c757d;
+    --color8: #adb5bd;
+    --color9: #ced4da;
+    --color10: #dee2e6;
+    --color11: #e9ecef;
+    --color12: #343a40;
+    --color13: #013a63;
 
 }
 
@@ -40,13 +50,12 @@ ul {
 
 nav {
     animation: colorChange 6s infinite;
-    transition: 0.1s;
+    transition: 0.6s;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
-
 
 }
 
@@ -57,29 +66,30 @@ a {
 @keyframes colorChange {
     0% {
 
-        background: rgb(122, 124, 108);
+        background: var(--color8);
     }
 
     20% {
 
-        background: rgb(105, 127, 84);
+        background: var(--color5);
     }
 
     40% {
 
-        background: rgb(99, 124, 107);
+        background: var(--color9);
+        ;
     }
 
     60% {
-        background: rgb(116, 103, 103);
+        background: var(--color7);
     }
 
     80% {
-        background: rgb(62, 64, 59);
+        background: var(--color4);
     }
 
     100% {
-        background-color: rgb(128, 154, 137);
+        background-color: var(--color6);
     }
 }
 
@@ -104,27 +114,27 @@ a {
 
 @keyframes bgcolor {
     0% {
-        background-color: rgb(13, 48, 25);
+        background-color: var(--color8);
     }
 
     20% {
-        background: rgb(29, 36, 18);
+        background: var(--color5);
     }
 
     40% {
-        background: rgb(41, 29, 29);
+        background: var(--color9);
     }
 
     60% {
-        background: rgb(8, 37, 17);
+        background: var(--color7);
     }
 
     80% {
-        background: rgb(28, 41, 15);
+        background: var(--color4);
     }
 
     100% {
-        background: rgb(48, 54, 3);
+        background: var(--color6);
     }
 }
 
@@ -166,17 +176,17 @@ h2 {
 
 .link {
 
-    background: rgb(32, 35, 29);
+    background: var(--color4);
+    color: var(--color2);
     padding: 20px 40px;
     border-radius: 25px;
-    color: var(--color3);
-    border: 1px solid var(--color1);
+    border: 2px solid var(--color12);
     transition: 0.3s;
 }
 
 .link:hover {
-    background: var(--color1);
-    color: var(--color2);
+    background: var(--color10);
+    color: var(--color3);
 }
 
 .res {
@@ -245,14 +255,14 @@ img {
 .link1 {
     width: 11%;
 
-    background-color: rgb(32 35 29);
+    background-color: var(--color4);
     padding: 20px 40px;
     border-radius: 25px;
-    color: var(--color3);
+    color: var(--color2);
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-bottom: 30%; */
+    margin-bottom: 30%;
     margin: 5% 0 0 40%;
 }
 
@@ -291,9 +301,9 @@ img {
 .skill-card {
     width: 220px;
     padding: 25px;
-    background: rgb(41, 29, 29);
+    background: var(--color5);
     border-radius: 15px;
-    border: 2px solid var(--color1);
+    border: 2px solid var(--color12);
     transition: 0.3s;
     cursor: pointer;
 }
@@ -305,7 +315,7 @@ img {
 
 .skill-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 0 20px var(--color1);
+    box-shadow: 0 0 20px var(--color7);
 }
 
 .mai {
@@ -334,8 +344,8 @@ img {
 
 .project-card {
     width: 320px;
-    background: rgb(41, 29, 29);
-    border: 2px solid var(--color1);
+    background: var(--color5);
+    border: 2px solid var(--color12);
     border-radius: 15px;
     padding: 20px;
     transition: 0.3s;
@@ -361,11 +371,11 @@ h4 {
 
 .link1 {
     padding: 10px 40px;
-    background: rgb(32, 35, 29);
+    /* background: rgb(32, 35, 29); */
     border-radius: 15px;
     width: 20%;
     margin: 0 0 0 29%;
-    border: 1px solid var(--color1);
+    border: 2px solid var(--color12);
     transition: 0.3s;
 }
 
@@ -375,8 +385,8 @@ h4 {
 }
 
 .link1:hover {
-    background: var(--color1);
-    color: var(--color2);
+    background: var(--color10);
+    color: var(--color3);
     /* background: #1e2a22; */
 }
 
@@ -392,8 +402,8 @@ h4 {
     width: 75%;
     margin: auto;
     padding: 30px;
-    background: rgb(41, 29, 29);
-    border: 2px solid var(--color1);
+    background: var(--color5);
+    border: 2px solid var(--color12);
     border-radius: 15px;
     color: var(--color2);
     transition: 0.3s;
@@ -401,7 +411,7 @@ h4 {
 
 .exp-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 0 20px var(--color1);
+    box-shadow: 0 0 20px var(--color10);
 }
 
 .left {
@@ -422,8 +432,8 @@ strong {
 .expc-card p {
     padding: 30px 30px;
     /* margin: 10%; */
-    background: #291d1d;
-    border: 2px solid var(--color1);
+    background: var(--color4);
+    border: 2px solid var(--color12);
     border-radius: 15px;
     color: var(--color2);
     transition: 0.3s;
@@ -432,7 +442,7 @@ strong {
 
 .expc-card p:hover {
     transform: translateY(-5px);
-    box-shadow: 0 0 20px var(--color1);
+    box-shadow: 0 0 20px var(--color10);
 }
 
 .expc {
@@ -454,15 +464,15 @@ strong {
 
 .last span {
     padding: 10px 18px;
-    background: rgb(32, 35, 29);
+    background: var(--color4);
     border-radius: 25px;
-    border: 1px solid var(--color1);
+    border: 2px solid var(--color12);
     transition: 0.3s;
 }
 
 .last span:hover {
-    background: var(--color1);
-    color: var(--color2);
+    background: var(--color10);
+    color: var(--color3);
 }
 
 .exp-btn {
@@ -472,14 +482,15 @@ strong {
     text-align: center;
     text-decoration: none;
     padding: 15px;
-    background: var(--color1);
+    background: var(--color4);
     color: var(--color2);
+    border: 2px solid var(--color12);
     border-radius: 30px;
     transition: 0.3s;
 }
 
 .exp-btn:hover {
-    background: var(--color2);
+    background: var(--color10);
     color: var(--color3);
 }
 
@@ -508,16 +519,16 @@ strong {
 
 .detail-card {
     padding: 20px;
-    border: 2px solid var(--color1);
+    border: 2px solid var(--color12);
     border-radius: 15px;
     text-align: center;
-    background: rgb(50, 35, 35);
+    background: var(--color4);
     transition: .3s;
 }
 
 .detail-card:hover {
     transform: scale(1.05);
-    background: rgb(60, 45, 45);
+    background: var(--color10);
 }
 
 .subjects {
@@ -530,15 +541,15 @@ strong {
 
 .subjects span {
     padding: 10px 18px;
-    background: rgb(32, 35, 29);
+    background: var(--color4);
     border-radius: 25px;
-    border: 1px solid var(--color1);
+    border: 2px solid var(--color12);
     transition: 0.3s;
 }
 
 .subjects span:hover {
-    background: var(--color1);
-    color: var(--color2);
+    background: var(--color10);
+    color: var(--color3);
 }
 
 .contact-title {
@@ -552,8 +563,8 @@ strong {
     width: 70%;
     margin: auto;
     padding: 40px;
-    background: rgb(41, 29, 29);
-    border: 2px solid var(--color1);
+    background: var(--color4);
+    border: 2px solid var(--color12);
     border-radius: 20px;
     color: var(--color2);
     transition: 0.3s;
@@ -561,7 +572,7 @@ strong {
 
 .contact-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 0 20px var(--color1);
+    box-shadow: 0 0 20px var(--color10);
 }
 
 .contact-card h2 {
@@ -581,7 +592,7 @@ strong {
 }
 
 .contact-card a:hover {
-    color: var(--color2);
+    color: var(--color3);
 }
 
 .github-title {
@@ -599,8 +610,9 @@ strong {
 }
 
 .github-links a {
-    background: var(--color1);
+    background: var(--color4);
     color: var(--color2);
+    border: 2px solid var(--color12);
     padding: 12px 22px;
     border-radius: 25px;
     text-decoration: none;
@@ -608,7 +620,7 @@ strong {
 }
 
 .github-links a:hover {
-    background: var(--color2);
+    background: var(--color10);
     color: var(--color3);
     transform: translateY(-5px);
 }
@@ -630,7 +642,7 @@ textarea {
 
 button {
     padding: 15px;
-    background: var(--color1);
+    background: var(--color7);
     color: var(--color2);
     border: none;
     border-radius: 30px;
@@ -640,7 +652,7 @@ button {
 }
 
 button:hover {
-    background: var(--color2);
+    background: var(--color10);
     color: var(--color3);
 }
 
@@ -648,7 +660,7 @@ button:hover {
 
 #footer {
     padding: 50px 10px;
-    background: rgb(32, 35, 29);
+    background: var(--color12);
     text-align: center;
     color: var(--color2);
 }
@@ -680,7 +692,7 @@ button:hover {
 }
 
 .footer-links a:hover {
-    color: var(--color1);
+    color: var(--color7);
 }
 
 .social-links {
@@ -693,16 +705,18 @@ button:hover {
 
 .social-links a {
     text-decoration: none;
+
+    background-color: var(--color4);
     color: var(--color2);
     padding: 10px 18px;
-    border: 2px solid var(--color1);
+    border: 2px solid var(--color12);
     border-radius: 25px;
     transition: 0.3s;
 }
 
 .social-links a:hover {
-    background: var(--color1);
-    color: var(--color2);
+    background: var(--color10);
+    color: var(--color3);
     transform: translateY(-5px);
 }
 
@@ -910,4 +924,4 @@ button:hover {
     .img1 {
         width: 260px;
     }
-}   
+}
