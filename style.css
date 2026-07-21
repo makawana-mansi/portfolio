@@ -804,50 +804,57 @@ button:hover {
         display: block;
     }
 
-    .skills-container,
+    .skills-container {
+        width: 100%;
+        margin: 30px -17px 30px 31px;
+        justify-content: center;
+    }
+
     .project-container {
         width: 100%;
-        margin: 30px auto;
+        margin: 30px 20px 30px -14px;
         justify-content: center;
     }
+}
 
-    .skill-card,
-    .project-card {
-        width: 300px;
-    }
 
-    .exp-card,
-    .contact-card {
-        width: 75%;
-        padding: 20px;
-        margin: 0 20px 0 16px;
-    }
+.skill-card,
+.project-card {
+    width: 300px;
+}
 
-    .contact-card {
-        width: 75%;
-        padding: 20px;
-        margin: 0 20px 0 29px
-    }
+.exp-card,
+.contact-card {
+    width: 75%;
+    padding: 20px;
+    margin: 0 20px 0 16px;
+}
 
-    .edu-details,
-    .expc {
-        grid-template-columns: 1fr;
-    }
+.contact-card {
+    width: 75%;
+    padding: 20px;
+    margin: 0 20px 0 29px
+}
 
-    .subjects,
-    .last,
-    .footer-links,
-    .social-links,
-    .github-links {
-        justify-content: center;
-    }
+.edu-details,
+.expc {
+    grid-template-columns: 1fr;
+}
 
-    .link,
-    .link1 {
-        width: fit-content;
-        margin: 20px auto;
-        display: block;
-    }
+.subjects,
+.last,
+.footer-links,
+.social-links,
+.github-links {
+    justify-content: center;
+}
+
+.link,
+.link1 {
+    width: fit-content;
+    margin: 20px auto;
+    display: block;
+}
 }
 
 @media (max-width:768px) {
@@ -937,7 +944,7 @@ button:hover {
     .skill-card,
     .project-card {
         width: 75%;
-        margin: 0 20px 0 -15px;
+        margin: 0 8px 0px 0px;
     }
 
     .subjects span,
@@ -949,5 +956,17 @@ button:hover {
     img,
     .img1 {
         width: 260px;
+    }
+
+    .exp-btn {
+        width: 170px;
+    }
+
+    .contact-card p {
+        font-size: 17px;
+    }
+
+    #footer h2 {
+        margin-left: 18px;
     }
 }
