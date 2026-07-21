@@ -321,6 +321,7 @@ img {
     border: 2px solid var(--color2);
     transition: 0.3s;
     cursor: pointer;
+    color: var(--color2);
 }
 
 .skill-card h3 {
@@ -764,7 +765,7 @@ button:hover {
     .main2 {
         flex-direction: column;
         height: auto;
-        padding: 120px 20px 50px;
+        padding: 120px 0px 50px;
         gap: 40px;
     }
 
@@ -817,8 +818,15 @@ button:hover {
 
     .exp-card,
     .contact-card {
-        width: 90%;
+        width: 75%;
         padding: 20px;
+        margin: 0 20px 0 16px;
+    }
+
+    .contact-card {
+        width: 75%;
+        padding: 20px;
+        margin: 0 20px 0 29px
     }
 
     .edu-details,
@@ -877,7 +885,7 @@ button:hover {
 
     .project-card,
     .skill-card {
-        width: 90%;
+        width: 75%;
     }
 
     .contact-title {
@@ -928,7 +936,8 @@ button:hover {
 
     .skill-card,
     .project-card {
-        width: 95%;
+        width: 75%;
+        margin: 0 20px 0 -15px;
     }
 
     .subjects span,
