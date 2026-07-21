@@ -2,16 +2,23 @@
     --color1: rgb(37, 99, 235);
     --color2: white;
     --color3: black;
-    --color4: #212529;
-    --color5: #343a40;
-    --color6: #495057;
-    --color7: #6c757d;
-    --color8: #adb5bd;
-    --color9: #ced4da;
-    --color10: #dee2e6;
-    --color11: #e9ecef;
-    --color12: #343a40;
-    --color13: #013a63;
+    --color4: #1E293B;
+    /* Deep Slate Blue (Base/Navbar) */
+    --color5: #334155;
+    /* Slate Card */
+    --color6: #334155;
+    --color7: #475569;
+    /* Medium Slate */
+    --color8: #64748B;
+    --color9: #0F172A;
+    /* Dark Navy Background */
+    --color10: #475569;
+    /* Hover Color */
+    --color11: #1E293B;
+    /* Element Background */
+    --color12: #090D16;
+    /* Deep Border/Footer */
+    --color13: #0F172A;
 
 }
 
@@ -35,7 +42,6 @@ header {
     background: rgba(255, 255, 255, 0.3);
     font-size: 20px;
     text-decoration: none;
-
 }
 
 
@@ -45,6 +51,7 @@ ul {
     justify-content: center;
     list-style: none;
     padding: 30px;
+
 
 }
 
@@ -60,13 +67,17 @@ nav {
 }
 
 a {
+    color: var(--color2);
+}
+
+a:hover {
     color: var(--color3);
 }
 
 @keyframes colorChange {
     0% {
 
-        background: var(--color8);
+        background: var(--color4);
     }
 
     20% {
@@ -76,7 +87,7 @@ a {
 
     40% {
 
-        background: var(--color9);
+        background: var(--color6);
         ;
     }
 
@@ -85,11 +96,11 @@ a {
     }
 
     80% {
-        background: var(--color4);
+        background: var(--color8);
     }
 
     100% {
-        background-color: var(--color6);
+        background-color: var(--color9);
     }
 }
 
@@ -114,15 +125,19 @@ a {
 
 @keyframes bgcolor {
     0% {
-        background-color: var(--color8);
+
+        background: var(--color4);
     }
 
     20% {
+
         background: var(--color5);
     }
 
     40% {
-        background: var(--color9);
+
+        background: var(--color6);
+        ;
     }
 
     60% {
@@ -130,11 +145,11 @@ a {
     }
 
     80% {
-        background: var(--color4);
+        background: var(--color8);
     }
 
     100% {
-        background: var(--color6);
+        background-color: var(--color9);
     }
 }
 
@@ -145,7 +160,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 40px;
-    padding-top: 7%;
+    padding-top: 2%;
 
 }
 
@@ -176,11 +191,11 @@ h2 {
 
 .link {
 
-    background: var(--color4);
+    background: var(--color13);
     color: var(--color2);
     padding: 20px 40px;
     border-radius: 25px;
-    border: 2px solid var(--color12);
+    border: 2px solid var(--color2);
     transition: 0.3s;
 }
 
@@ -255,7 +270,7 @@ img {
 .link1 {
     width: 11%;
 
-    background-color: var(--color4);
+    background-color: var(--color13);
     padding: 20px 40px;
     border-radius: 25px;
     color: var(--color2);
@@ -301,9 +316,9 @@ img {
 .skill-card {
     width: 220px;
     padding: 25px;
-    background: var(--color5);
+    background: var(--color13);
     border-radius: 15px;
-    border: 2px solid var(--color12);
+    border: 2px solid var(--color2);
     transition: 0.3s;
     cursor: pointer;
 }
@@ -315,7 +330,7 @@ img {
 
 .skill-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 0 20px var(--color7);
+    box-shadow: 0 0 20px var(--color12);
 }
 
 .mai {
@@ -344,8 +359,8 @@ img {
 
 .project-card {
     width: 320px;
-    background: var(--color5);
-    border: 2px solid var(--color12);
+    background: var(--color13);
+    border: 2px solid var(--color2);
     border-radius: 15px;
     padding: 20px;
     transition: 0.3s;
@@ -371,11 +386,11 @@ h4 {
 
 .link1 {
     padding: 10px 40px;
-    /* background: rgb(32, 35, 29); */
+    background-color: var(--color4);
     border-radius: 15px;
     width: 20%;
     margin: 0 0 0 29%;
-    border: 2px solid var(--color12);
+    border: 2px solid var(--color2);
     transition: 0.3s;
 }
 
@@ -402,8 +417,8 @@ h4 {
     width: 75%;
     margin: auto;
     padding: 30px;
-    background: var(--color5);
-    border: 2px solid var(--color12);
+    background: var(--color13);
+    border: 2px solid var(--color2);
     border-radius: 15px;
     color: var(--color2);
     transition: 0.3s;
@@ -432,8 +447,9 @@ strong {
 .expc-card p {
     padding: 30px 30px;
     /* margin: 10%; */
+    font-size: 17px;
     background: var(--color4);
-    border: 2px solid var(--color12);
+    border: 2px solid var(--color2);
     border-radius: 15px;
     color: var(--color2);
     transition: 0.3s;
@@ -442,7 +458,7 @@ strong {
 
 .expc-card p:hover {
     transform: translateY(-5px);
-    box-shadow: 0 0 20px var(--color10);
+    box-shadow: 0 0 20px var(--color7);
 }
 
 .expc {
@@ -460,13 +476,14 @@ strong {
     flex-wrap: wrap;
     gap: 20px;
     margin: 35px 0;
+
 }
 
 .last span {
     padding: 10px 18px;
-    background: var(--color4);
+    background: var(--color13);
     border-radius: 25px;
-    border: 2px solid var(--color12);
+    border: 2px solid var(--color2);
     transition: 0.3s;
 }
 
@@ -482,9 +499,9 @@ strong {
     text-align: center;
     text-decoration: none;
     padding: 15px;
-    background: var(--color4);
+    background: var(--color5);
     color: var(--color2);
-    border: 2px solid var(--color12);
+    border: 2px solid var(--color2);
     border-radius: 30px;
     transition: 0.3s;
 }
@@ -519,7 +536,7 @@ strong {
 
 .detail-card {
     padding: 20px;
-    border: 2px solid var(--color12);
+    border: 2px solid var(--color2);
     border-radius: 15px;
     text-align: center;
     background: var(--color4);
@@ -528,7 +545,7 @@ strong {
 
 .detail-card:hover {
     transform: scale(1.05);
-    background: var(--color10);
+    background: var(--color7);
 }
 
 .subjects {
@@ -541,9 +558,9 @@ strong {
 
 .subjects span {
     padding: 10px 18px;
-    background: var(--color4);
+    background: var(--color13);
     border-radius: 25px;
-    border: 2px solid var(--color12);
+    border: 2px solid var(--color2);
     transition: 0.3s;
 }
 
@@ -563,8 +580,8 @@ strong {
     width: 70%;
     margin: auto;
     padding: 40px;
-    background: var(--color4);
-    border: 2px solid var(--color12);
+    background: var(--color13);
+    border: 2px solid var(--color2);
     border-radius: 20px;
     color: var(--color2);
     transition: 0.3s;
@@ -610,9 +627,9 @@ strong {
 }
 
 .github-links a {
-    background: var(--color4);
+    background: var(--color5);
     color: var(--color2);
-    border: 2px solid var(--color12);
+    border: 2px solid var(--color2);
     padding: 12px 22px;
     border-radius: 25px;
     text-decoration: none;
@@ -642,7 +659,7 @@ textarea {
 
 button {
     padding: 15px;
-    background: var(--color7);
+    background: var(--color5);
     color: var(--color2);
     border: none;
     border-radius: 30px;
@@ -660,7 +677,7 @@ button:hover {
 
 #footer {
     padding: 50px 10px;
-    background: var(--color12);
+    background: var(--color13);
     text-align: center;
     color: var(--color2);
 }
@@ -706,16 +723,16 @@ button:hover {
 .social-links a {
     text-decoration: none;
 
-    background-color: var(--color4);
+    background-color: var(--color13);
     color: var(--color2);
     padding: 10px 18px;
-    border: 2px solid var(--color12);
+    border: 2px solid var(--color2);
     border-radius: 25px;
     transition: 0.3s;
 }
 
 .social-links a:hover {
-    background: var(--color10);
+    background: var(--color4);
     color: var(--color3);
     transform: translateY(-5px);
 }
