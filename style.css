@@ -450,6 +450,7 @@ strong {
     padding: 30px 30px;
     /* margin: 10%; */
     font-size: 17px;
+
     background: var(--color4);
     border: 2px solid var(--color2);
     border-radius: 15px;
@@ -828,19 +829,19 @@ button:hover {
 .contact-card {
     width: 75%;
     padding: 20px;
-    margin: 0 20px 0 160px;
+    margin: 0 20px 0 190px;
 }
 
 .contact-card {
     width: 75%;
     padding: 20px;
-    margin: 0 20px 0 180px;
+    margin: 0 20px 0 210px;
 }
 
-/* .edu-details,
+.edu-details,
 .expc {
     grid-template-columns: 1fr;
-} */
+}
 
 .subjects,
 .last,
@@ -976,14 +977,18 @@ button:hover {
     }
 
     .exp-card {
-        width: 75%;
-        padding: 61px;
-        margin: 0 20px 0 -21px;
+        width: 68%;
+        padding: 47px;
+        margin: 0 45px 0 -4px;
     }
 
     .link {
         display: block;
         width: 123px;
         margin: 30px 11px 30px 124px;
+    }
+
+    .expc-card p {
+        display: block;
     }
 }
