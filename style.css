@@ -197,6 +197,7 @@ h2 {
     border-radius: 25px;
     border: 2px solid var(--color2);
     transition: 0.3s;
+    margin-left: 10px;
 }
 
 .link:hover {
@@ -204,9 +205,9 @@ h2 {
     color: var(--color3);
 }
 
-.res {
+/* .res {
     margin: 20px 11px 30px 88px;
-}
+} */
 
 img {
 
@@ -267,7 +268,7 @@ img {
 
 }
 
-/* .link1 {
+.link1 {
     width: 11%;
     background-color: var(--color13);
     padding: 20px 40px;
@@ -278,7 +279,7 @@ img {
     align-items: center;
     margin-bottom: 30%;
     margin: 5% 0 0 40%;
-} */
+}
 
 .hed2 {
     margin-top: 10%;
@@ -422,6 +423,7 @@ h4 {
     border-radius: 15px;
     color: var(--color2);
     transition: 0.3s;
+
 }
 
 .exp-card:hover {
@@ -805,7 +807,7 @@ button:hover {
 
     .skills-container {
         width: 100%;
-        margin: 30px -17px 30px 31px;
+        margin: 30px -17px 30px 11px;
         justify-content: center;
     }
 
@@ -826,13 +828,13 @@ button:hover {
 .contact-card {
     width: 75%;
     padding: 20px;
-    margin: 0 20px 0 16px;
+    margin: 0 20px 0 160px;
 }
 
 .contact-card {
     width: 75%;
     padding: 20px;
-    margin: 0 20px 0 29px
+    margin: 0 20px 0 180px;
 }
 
 .edu-details,
@@ -965,7 +967,23 @@ button:hover {
         font-size: 17px;
     }
 
+    .contact-card {
+        margin: 0 20px 0 30px;
+    }
+
     #footer h2 {
         margin-left: 18px;
+    }
+
+    .exp-card {
+        width: 75%;
+        padding: 61px;
+        margin: 0 20px 0 -21px;
+    }
+
+    .link {
+        display: block;
+        width: 123px;
+        margin: 30px 11px 30px 124px;
     }
 }
