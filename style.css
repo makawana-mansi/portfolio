@@ -390,7 +390,7 @@ h4 {
     background-color: var(--color4);
     border-radius: 15px;
     width: 20%;
-    margin: 0 0 0 29%;
+    margin: 8% 0 0 29%;
     border: 2px solid var(--color2);
     transition: 0.3s;
 }
@@ -629,7 +629,7 @@ strong {
 }
 
 .github-links a {
-    background: var(--color5);
+    background: var(--color4);
     color: var(--color2);
     border: 2px solid var(--color2);
     padding: 12px 22px;
@@ -837,10 +837,10 @@ button:hover {
     margin: 0 20px 0 180px;
 }
 
-.edu-details,
+/* .edu-details,
 .expc {
     grid-template-columns: 1fr;
-}
+} */
 
 .subjects,
 .last,
@@ -851,11 +851,11 @@ button:hover {
 }
 
 
-.link1 {
+/* .link1 {
     width: fit-content;
     margin: 0px auto;
     display: block;
-}
+} */
 
 
 @media (max-width:768px) {
