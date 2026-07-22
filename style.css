@@ -3,21 +3,14 @@
     --color2: white;
     --color3: black;
     --color4: #1E293B;
-    /* Deep Slate Blue (Base/Navbar) */
     --color5: #334155;
-    /* Slate Card */
     --color6: #334155;
     --color7: #475569;
-    /* Medium Slate */
     --color8: #64748B;
     --color9: #0F172A;
-    /* Dark Navy Background */
     --color10: #475569;
-    /* Hover Color */
     --color11: #1E293B;
-    /* Element Background */
     --color12: #090D16;
-    /* Deep Border/Footer */
     --color13: #0F172A;
 
 }
@@ -985,7 +978,7 @@ button:hover {
     .link {
         display: block;
         width: 123px;
-        margin: 30px 11px 30px 124px;
+        margin: 30px 11px 30px 90px;
     }
 
     .expc-card p {
